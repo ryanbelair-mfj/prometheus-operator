@@ -539,6 +539,7 @@ type WebSpec struct {
 	// The prometheus web page title
 	PageTitle *string       `json:"pageTitle,omitempty"`
 	TLSConfig *WebTLSConfig `json:"tlsConfig,omitempty"`
+	BasicAuth *BasicAuth    `json:"basicAuth,omitempty"`
 }
 
 // WebTLSConfig defines the TLS parameters for HTTPS.
