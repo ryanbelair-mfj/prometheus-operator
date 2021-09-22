@@ -1139,6 +1139,7 @@ WebSpec defines the query command line flags when starting Prometheus.
 | ----- | ----------- | ------ | -------- |
 | pageTitle | The prometheus web page title | *string | false |
 | tlsConfig |  | *[WebTLSConfig](#webtlsconfig) | false |
+| basicAuth |  | *[BasicAuth](#basicauth) | false |
 
 [Back to TOC](#table-of-contents)
 
